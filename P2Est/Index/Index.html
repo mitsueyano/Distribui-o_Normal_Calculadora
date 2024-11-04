@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribuição Normal</title>
+    <link rel="stylesheet" href="../Css/Index.css">
+</head>
+<body>
+    <div class="title"><span>Calculadora - Distribuição Normal</span></div>
+    <div class="container">
+        <div class="info">
+            <div class="box" id="xi_box">
+                <div class="subtitle"><span>X<sub>i</sub></span></div>
+                <input type="text" name="x1" id="x1" class="inp">
+                <input type="text" name="x2" id="x2" class="inp">
+                <input type="text" name="x3" id="x3" class="inp">
+                <input type="text" name="x4" id="x4" class="inp">
+                <input type="text" name="x5" id="x5" class="inp">
+            </div>
+            <div class="box" id="fi_box">
+                <div class="subtitle"><span>F<sub>i</sub></span></div>
+                <input type="text" name="f1" id="f1" class="inp">
+                <input type="text" name="f2" id="f2" class="inp">
+                <input type="text" name="f3" id="f3" class="inp">
+                <input type="text" name="f4" id="f4" class="inp">
+                <input type="text" name="f5" id="f5" class="inp">
+            </div>
+            <div class="box disabled" id="fac_box">
+                <div class="subtitle"><span>Fac</span></div>
+                <input type="text" name="fac1" id="fac1" disabled class="answ">
+                <input type="text" name="fac2" id="fac2" disabled class="answ">
+                <input type="text" name="fac3" id="fac3" disabled class="answ">
+                <input type="text" name="fac4" id="fac4" disabled class="answ">
+                <input type="text" name="fac5" id="fac5" disabled class="answ">
+            </div>
+            <div class="box" id="xifi_box">
+                <div class="subtitle"><span>X<sub>i</sub> . F<sub>i</sub></span></div>
+                <input type="text" name="x1f1" id="x1f1" disabled class="answ">
+                <input type="text" name="x2f2" id="x2f2" disabled class="answ">
+                <input type="text" name="x3f3" id="x3f3" disabled class="answ">
+                <input type="text" name="x4f4" id="x4f4" disabled class="answ">
+                <input type="text" name="x5f5" id="x5f5" disabled class="answ">
+            </div>
+            <div class="box" id="xi_x_fi_box">
+                <div class="subtitle"><span>(X<sub>i</sub> - x&#773;)&#178; - F<sub>i</sub></span></div>
+                <input type="text" name="x1_x_f1" id="x1_x_f1" disabled class="answ">
+                <input type="text" name="x2_x_f2" id="x2_x_f2" disabled class="answ">
+                <input type="text" name="x3_x_f3" id="x3_x_f3" disabled class="answ">
+                <input type="text" name="x4_x_f4" id="x4_x_f4" disabled class="answ">
+                <input type="text" name="x5_x_f5" id="x5_x_f5" disabled class="answ">
+            </div>
+        </div>
+        <div class="geral" id="geral">
+            <div class="text"><span>x&#773;</span><input type="text" name="media" id="media" disabled class="answ"></div>
+            <div class="text"><span>Coeficiente de Variação:</span><input type="text" name="cv" id="cv" disabled class="answ"></div>
+            <div class="text"><span>&#963;&#178;:</span><input type="text" name="variancia" id="variancia" disabled class="answ"></div>
+            <div class="text"><span>&#963;:</span><input type="text" name="dp" id="dp" disabled class="answ"></div>
+        </div>
+        <input type="button" value="CALCULAR" class="btn">
+    </div>
+</body>
+</html>
